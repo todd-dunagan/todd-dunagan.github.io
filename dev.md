@@ -72,6 +72,15 @@ kl | kubectl logs | Print the logs for a container or resource
 
 from: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl
 
+### Git
+Ready to release a feature to main
+1. Make sure you're up to date with main:
+```
+git fetch origin
+git merge origin/main
+git mergetool
+```
+
 ### Snippets + Hints
 
 #### Bash
